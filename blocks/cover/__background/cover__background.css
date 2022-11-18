@@ -19,13 +19,13 @@
 @media screen and (min-width: 1024px) {
   .cover__background {
     margin-left: -48px;
-    width: calc(100% + 96px);;
+    width: calc(100% + 96px);
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__background {
     margin-left: -100px;
-    width: calc(100% + 200px);;
+    width: calc(100% + 200px);
   }
 }
