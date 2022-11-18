@@ -1,0 +1,15 @@
+.introduction {
+  margin-bottom: 66px;
+}
+
+@media screen and (min-width: 768px) {
+  .introduction {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .introduction {
+    margin-bottom: 92px;
+  }
+}

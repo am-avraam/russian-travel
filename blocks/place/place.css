@@ -1,0 +1,42 @@
+.place:not(:last-of-type) {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    display: grid;
+    grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+    gap: 28px;
+    grid-template-areas:
+    "name website"
+    "pict p1"
+    "pict p2";
+    align-items:center;
+  }
+
+  .place:not(:last-of-type) {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
+    gap: 32px;
+  }
+
+  .place:not(:last-of-type) {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    grid-template-columns: minmax(460px, 610px) minmax(484px, 640px);
+    gap: 40px;
+  }
+
+  .place:not(:last-of-type) {
+    margin-bottom: 80px;
+  }
+}

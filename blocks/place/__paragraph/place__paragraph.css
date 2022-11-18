@@ -1,0 +1,46 @@
+.place__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 0;
+}
+
+.place__paragraph:not(:last-of-type), .place__paragraph:only-of-type {
+  padding-top: 32px;
+  padding-bottom: 25px;
+}
+
+.place__paragraph:only-of-type {
+  padding-bottom: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+  .place__paragraph:not(:last-of-type), .place__paragraph:only-of-type {
+    padding: 0;
+    height: fit-content;
+  }
+
+  .place__paragraph:first-of-type {
+    grid-area: p1;
+  }
+  .place__paragraph:last-of-type {
+    justify-self: end;
+    grid-column: 2;
+    grid-area: p2;
+  }
+
+  .place__paragraph:only-of-type {
+    grid-area: p1 / p2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 163%;
+
+  }
+}
+
