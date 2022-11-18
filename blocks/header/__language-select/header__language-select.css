@@ -1,6 +1,4 @@
 .header__language-select {
-  position: relative;
   top: 7px;
-/* height: fit-content; */
-align-self: center;
+  align-self: center;
 }

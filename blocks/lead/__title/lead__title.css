@@ -17,7 +17,7 @@
 
 @media screen and (min-width: 1024px) {
   .lead__title {
-    width: 70.32%;
+    max-width: 70.32%;
     margin: 0 auto;
     margin-bottom: 32px;
   }
@@ -25,12 +25,12 @@
 
 @media screen and (min-width: 1280px) {
   .lead__title {
-    width: 73.17%;
+    max-width: 73.17%;
   }
 }
 
 @media screen and (min-width: 1400px) {
   .lead__title {
-    width: 60.17%;
+    max-width: 70.17%;
   }
 }

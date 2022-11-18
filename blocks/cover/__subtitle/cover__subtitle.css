@@ -8,27 +8,28 @@
   z-index: 1;
   margin: 0;
   padding: 0 15px;
+  max-width: 80%;
 }
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
     font-size: 18px;
     line-height: 1.22;
-    padding: 0 175px;
+    max-width: 47%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__subtitle {
     width: 38.8%;
-    padding: 0;
+    padding: 0 200px;
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__subtitle {
-    width: 36%;
+    width: 30%;
   }
 }
 

@@ -7,7 +7,7 @@
 }
 
 .place__paragraph:not(:last-of-type), .place__paragraph:only-of-type {
-  padding-top: 32px;
+  /* padding-top: 32px; */
   padding-bottom: 25px;
 }
 
@@ -17,8 +17,12 @@
 
 
 @media screen and (min-width: 768px) {
+  .place__paragraph {
+    align-self: baseline;
+  }
+
   .place__paragraph:not(:last-of-type), .place__paragraph:only-of-type {
-    padding: 0;
+    /* padding: 0; */
     height: fit-content;
   }
 
@@ -29,6 +33,7 @@
     justify-self: end;
     grid-column: 2;
     grid-area: p2;
+    /* margin-top: -32px; */
   }
 
   .place__paragraph:only-of-type {
@@ -40,7 +45,16 @@
   .place__paragraph {
     font-size: 18px;
     line-height: 163%;
-
   }
 }
+  /* .place__paragraph:not(:only-of-type):last-of-type {
+    margin-top: -32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__paragraph:not(:only-of-type):last-of-type {
+    margin-top: -105px;
+  }
+} */
 

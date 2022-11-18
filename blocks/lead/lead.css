@@ -14,3 +14,9 @@
     margin-bottom: 92px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    margin-top: 56px;
+  }
+}

@@ -10,3 +10,9 @@
     grid-area: website;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .place__website {
+    margin-bottom: 8px;
+  }
+}

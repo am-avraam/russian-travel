@@ -12,7 +12,6 @@
 
 @media screen and (min-width: 768px) {
   .lead__caption {
-    font-size: 10px;
     padding-left: 0;
   }
 }
