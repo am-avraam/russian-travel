@@ -1,8 +1,8 @@
 # Проект: Путешествие по России
 
-## Ссылка
+## Ссылка на проект
 
-- [Click]()
+- [Click here](https://am-avraam.github.io/russian-travel/)
 
 ### Описание
 
