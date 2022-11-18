@@ -6,7 +6,7 @@
   align-content: center;
   flex-wrap: wrap;
   position: relative;
-  background: url(../../images/cover/cover-trains.jpg) center/cover no-repeat;
+  background: url(./../../images/cover/cover-trains.jpg) center/cover no-repeat;
   min-height: 200px;
   margin-left: -16px;
   width: calc(100% + 32px);
