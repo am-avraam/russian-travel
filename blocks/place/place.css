@@ -10,8 +10,7 @@
     gap: 28px;
     grid-template-areas:
     "name website"
-    "pict p1"
-    "pict p2";
+    "pict p1";
     align-items:center;
   }
 
@@ -23,7 +22,8 @@
 @media screen and (min-width: 1024px) {
   .place {
     grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
-    gap: 32px;
+    column-gap: 32px;
+    row-gap: 48px;
   }
 
   .place:not(:last-of-type) {
@@ -34,7 +34,7 @@
 @media screen and (min-width: 1280px) {
   .place {
     grid-template-columns: minmax(460px, 610px) minmax(484px, 640px);
-    gap: 40px;
+    column-gap: 40px;
   }
 
   /* .place:not(:last-of-type) {

@@ -8,7 +8,7 @@
   margin-top: auto;
 }
 
-.header__lang-link-true {
+.header__lang-link_active {
   text-decoration-line: underline;
 }
 
