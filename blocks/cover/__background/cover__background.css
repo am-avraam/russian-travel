@@ -48,6 +48,8 @@
   .cover__background {
     margin-top: 92px;
     min-height: 640px;
+    margin-left: -48px;
+    width: calc(100% + 96px);
 
   }
 }
