@@ -15,6 +15,7 @@
     margin-bottom: 20px;
     margin-top: 0;
     grid-area: name;
+    max-width: 97%;
   }
 }
 
